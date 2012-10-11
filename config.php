@@ -44,8 +44,9 @@ $CFG->sslproxy = true;
 // Now you need to tell Moodle where it is located. Specify the full
 // web address to where moodle has been installed.
 $CFG->wwwroot   = 'https://' . $_SERVER['FQDN'];
-// Hack for Moodle 1.9 to allow sslproxy termination.
-$_SERVER[SERVER_PORT] = 443;
+// ORVSD fix for Moodle 1.9 to allow sslproxy termination.
+if (php_sapi_name() != 'cli') $_SERVER[SERVER_PORT] = 443;
+
 $CFG->dirroot   = '/var/www/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['FQDN'] . '/moodle';
 $CFG->dataroot  = '/data/moodledata/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['FQDN'];
 $CFG->directorypermissions = 02770;
