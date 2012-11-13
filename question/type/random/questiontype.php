@@ -1,4 +1,4 @@
-<?php  // $Id: questiontype.php,v 1.12.2.12 2011/05/04 22:56:39 moodlerobot Exp $
+<?php  // $Id$
 /**
  * Class for the random question type.
  *

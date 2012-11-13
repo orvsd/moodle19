@@ -1,4 +1,4 @@
-<?PHP // $Id: countries.php,v 1.2.8.8 2010/07/06 06:58:27 moodler Exp $
+<?PHP // $Id$
       // countries.php - created with Moodle 1.7 beta + (2006101003)
       // http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm
       //

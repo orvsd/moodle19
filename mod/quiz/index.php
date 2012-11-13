@@ -1,4 +1,4 @@
-<?php // $Id: index.php,v 1.46.2.17 2011/02/23 20:23:53 moodlerobot Exp $
+<?php // $Id$
 /**
  * This page lists all the instances of quiz in a particular course
  *

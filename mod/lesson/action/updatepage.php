@@ -1,8 +1,8 @@
-<?php // $Id: updatepage.php,v 1.17.8.3 2011/10/19 19:39:27 moodlerobot Exp $
+<?php // $Id$
 /**
  * Action for processing the form in editpage action and saves the page
  *
- * @version $Id: updatepage.php,v 1.17.8.3 2011/10/19 19:39:27 moodlerobot Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

@@ -1,4 +1,4 @@
-<?PHP // $Id: scorm.php,v 1.18.4.15 2010/07/22 02:20:12 danmarsden Exp $ 
+<?PHP // $Id$ 
       // scorm.php - created with Moodle 1.7 beta + (2006101003)
 
 

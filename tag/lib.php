@@ -1,4 +1,4 @@
-<?php // $Id: lib.php,v 1.43.2.46 2011/08/26 16:22:55 moodlerobot Exp $
+<?php // $Id$
 
 /**
  * Moodle tag library
@@ -28,7 +28,7 @@
  *
  * Tag set will create tags that need to be created.
  *
- * @version: $Id: lib.php,v 1.43.2.46 2011/08/26 16:22:55 moodlerobot Exp $
+ * @version: $Id$
  * @licence http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package moodlecore
  * @subpackage tag

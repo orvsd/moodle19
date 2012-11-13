@@ -1,4 +1,4 @@
-<?PHP // $Id: forum.php,v 1.21.4.19 2011/03/16 08:42:22 moodlerobot Exp $
+<?PHP // $Id$
       // forum.php - created with Moodle 1.7 beta + (2006101003)
 
 $string['addanewdiscussion'] = 'Add a new discussion topic';

@@ -1,4 +1,4 @@
-<?php //$Id: backup_scheduled.php,v 1.38.2.5 2011/10/07 00:08:29 moodlerobot Exp $
+<?php //$Id$
     //This file contains all the code needed to execute scheduled backups
 
 //This function is executed via moodle cron

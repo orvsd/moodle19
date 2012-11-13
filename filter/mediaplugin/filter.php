@@ -1,4 +1,4 @@
-<?php // $Id: filter.php,v 1.38.2.19 2011/03/09 08:17:04 moodlerobot Exp $
+<?php // $Id$
 //////////////////////////////////////////////////////////////
 //  Media plugin filtering
 //

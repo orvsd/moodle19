@@ -1,4 +1,4 @@
-<?php  //$Id: filtersettings.php,v 1.1.2.4 2010/04/10 00:17:45 iarenaza Exp $
+<?php  //$Id$
 
 require_once($CFG->dirroot.'/filter/tex/lib.php');
 

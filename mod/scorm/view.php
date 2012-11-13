@@ -1,4 +1,4 @@
-<?php  // $Id: view.php,v 1.56.2.7 2010/06/25 10:16:25 danmarsden Exp $
+<?php  // $Id$
 
     require_once("../../config.php");
     require_once($CFG->dirroot.'/mod/scorm/locallib.php');

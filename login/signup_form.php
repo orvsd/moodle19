@@ -1,4 +1,4 @@
-<?php  // $Id: signup_form.php,v 1.35.2.11 2010/05/13 01:40:38 moodler Exp $
+<?php  // $Id$
 
 if (!defined('MOODLE_INTERNAL')) {
     die('Direct access to this script is forbidden.');    ///  It must be included from a Moodle page

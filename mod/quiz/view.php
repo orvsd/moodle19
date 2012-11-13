@@ -1,4 +1,4 @@
-<?php  // $Id: view.php,v 1.124.2.21 2011/02/23 20:23:54 moodlerobot Exp $
+<?php  // $Id$
 
 // This page prints a particular instance of quiz
 

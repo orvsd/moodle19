@@ -1,4 +1,4 @@
-<?php  // $Id: format.php,v 1.35.2.18 2011/08/18 00:53:35 moodlerobot Exp $
+<?php  // $Id$
 /**
  * Base class for question import and export formats.
  *

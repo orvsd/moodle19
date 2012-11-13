@@ -1,4 +1,4 @@
-<?php  // $Id: uploaduser.php,v 1.68.2.19 2011/07/13 14:27:08 moodlerobot Exp $
+<?php  // $Id$
 
 /// Bulk user registration script from a comma separated file
 /// Returns list of users with their user ids

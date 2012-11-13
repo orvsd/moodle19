@@ -1,4 +1,4 @@
-<?php  //$Id: filtersettings.php,v 1.1.2.4 2010/10/07 08:42:47 rwijaya Exp $
+<?php  //$Id$
 
 $settings->add(new admin_setting_configcheckbox('filter_mediaplugin_enable_mp3', get_string('mediapluginmp3','admin'), '', 1));
 

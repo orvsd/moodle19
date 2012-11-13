@@ -1,8 +1,8 @@
-<?php // $Id: addendofbranch.php,v 1.6.8.1 2009/11/02 17:01:07 tjhunt Exp $
+<?php // $Id$
 /**
  * Action for adding an end of branch page
  *
- * @version $Id: addendofbranch.php,v 1.6.8.1 2009/11/02 17:01:07 tjhunt Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

@@ -1,5 +1,5 @@
 <?php
-// $Id: header.php,v 1.2.10.1 2009/06/13 17:24:41 skodak Exp $
+// $Id$
 
 require_once 'HTML/QuickForm/header.php';
 

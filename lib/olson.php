@@ -1,4 +1,4 @@
-<?php //$Id: olson.php,v 1.25.2.1 2011/06/23 09:40:59 moodlerobot Exp $
+<?php //$Id$
 
 /***
  *** olson_to_timezones ($filename)

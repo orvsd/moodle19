@@ -5,7 +5,7 @@
  * Normally this is only called by the main config.php file
  * Normally this file does not need to be edited.
  * @author Martin Dougiamas
- * @version $Id: setup.php,v 1.212.2.30 2010/05/21 11:39:44 skodak Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package moodlecore
  */

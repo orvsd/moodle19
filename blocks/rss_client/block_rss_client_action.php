@@ -1,11 +1,11 @@
-<?php //$Id: block_rss_client_action.php,v 1.54.2.8 2011/01/19 13:31:52 moodlerobot Exp $
+<?php //$Id$
 
 /*******************************************************************
 * This file contains no classes. It will display a list of existing feeds
 * defined for the site and allow add/edit/delete of site feeds.
 *
 * @author Daryl Hawes
-* @version  $Id: block_rss_client_action.php,v 1.54.2.8 2011/01/19 13:31:52 moodlerobot Exp $
+* @version  $Id$
 * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
 * @package base
 ******************************************************************/

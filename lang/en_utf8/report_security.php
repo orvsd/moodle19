@@ -1,4 +1,4 @@
-<?PHP  // $Id: report_security.php,v 1.2.2.18 2009/11/25 17:45:24 moodler Exp $
+<?PHP  // $Id$
 
 
 //NOTE TO TRANSLATORS: please do not translate yet, we are going to finalise this file sometime in January and backport to 1.9.x ;-)

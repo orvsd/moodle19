@@ -1,9 +1,9 @@
-<?php  // $Id: format.php,v 1.7.8.3 2009/11/19 10:37:26 skodak Exp $ 
+<?php  // $Id$ 
 /**
  * format.php  - Default format class for file imports/exports. Doesn't do 
  * everything on it's own -- it needs to be extended.
  *
- * @version $Id: format.php,v 1.7.8.3 2009/11/19 10:37:26 skodak Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

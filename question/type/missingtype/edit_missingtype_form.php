@@ -1,4 +1,4 @@
-<?php  // $Id: edit_missingtype_form.php,v 1.4.2.5 2009/07/29 18:59:27 stronk7 Exp $
+<?php  // $Id$
 /**
  * Defines the editing form for the missingtype question type.
  *

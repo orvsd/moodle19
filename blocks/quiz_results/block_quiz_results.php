@@ -1,4 +1,4 @@
-<?php //$Id: block_quiz_results.php,v 1.26.2.4 2010/02/24 08:51:16 poltawski Exp $
+<?php //$Id$
 
 define('B_QUIZRESULTS_NAME_FORMAT_FULL', 1);
 define('B_QUIZRESULTS_NAME_FORMAT_ID',   2);

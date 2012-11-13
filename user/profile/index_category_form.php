@@ -1,4 +1,4 @@
-<?php //$Id: index_category_form.php,v 1.3.4.4 2009/11/04 12:16:18 jmg324 Exp $
+<?php //$Id$
 
 require_once($CFG->dirroot.'/lib/formslib.php');
 

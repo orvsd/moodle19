@@ -1,4 +1,4 @@
-<?php //$Id: block_html.php,v 1.8.22.8 2009/10/30 23:36:26 poltawski Exp $
+<?php //$Id$
 
 class block_html extends block_base {
 

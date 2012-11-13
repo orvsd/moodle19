@@ -1,4 +1,4 @@
-<?php //$Id: user_bulk_forms.php,v 1.1.2.4 2009/11/16 17:11:31 arborrow Exp $
+<?php //$Id$
 
 require_once($CFG->libdir.'/formslib.php');
 require_once($CFG->libdir.'/datalib.php');

@@ -1,4 +1,4 @@
-<?php // $Id: assign.php,v 1.63.2.18 2011/08/18 00:53:34 moodlerobot Exp $
+<?php // $Id$
       // Script to assign users to contexts
 
     require_once('../../config.php');

@@ -11,4 +11,4 @@ Such modifications should be carefuly each time the Excel PEAR package is update
 to a new release within Moodle.
 
 stronk7
-$Id: README_MOODLE.txt,v 1.2.2.2 2009/11/19 10:25:26 skodak Exp $
+$Id$

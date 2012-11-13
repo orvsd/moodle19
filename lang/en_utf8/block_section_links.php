@@ -1,4 +1,4 @@
-<?PHP // $Id: block_section_links.php,v 1.2.8.1 2009/12/04 06:40:44 dongsheng Exp $ 
+<?PHP // $Id$ 
       // block_section_links.php - created with Moodle 1.7 beta + (2006101003)
 
 

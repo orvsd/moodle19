@@ -1,4 +1,4 @@
-<?php // $Id: format.php,v 1.24.2.10 2009/11/19 10:46:40 skodak Exp $
+<?php // $Id$
 //
 ///////////////////////////////////////////////////////////////
 // The GIFT import filter was designed as an easy to use method 

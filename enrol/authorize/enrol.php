@@ -1,4 +1,4 @@
-<?php // $Id: enrol.php,v 1.135.2.8 2011/07/26 09:23:15 moodlerobot Exp $
+<?php // $Id$
 
 require_once($CFG->dirroot.'/enrol/enrol.class.php');
 require_once($CFG->dirroot.'/enrol/authorize/const.php');

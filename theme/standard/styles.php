@@ -1,4 +1,4 @@
-<?PHP /*  $Id: styles.php,v 1.65.14.1 2009/07/29 07:42:36 moodler Exp $ */
+<?PHP /*  $Id$ */
 
 /// Every theme should contain a copy of this script.  It lets us 
 /// set up variables and so on before we include the raw CSS files.

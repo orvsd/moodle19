@@ -1,4 +1,4 @@
-<?php // $Id: auth.php,v 1.27.2.22 2011/11/15 11:30:58 moodlerobot Exp $
+<?php // $Id$
 
 /**
  * @author Martin Dougiamas

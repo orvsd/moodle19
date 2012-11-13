@@ -1,4 +1,4 @@
-<?php // $Id: user.php,v 1.30.2.8 2011/12/09 16:11:49 moodlerobot Exp $
+<?php // $Id$
 
 // Display user activity reports for a course
 

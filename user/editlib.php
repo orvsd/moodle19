@@ -1,4 +1,4 @@
-<?php  //$Id: editlib.php,v 1.11.2.12 2009/10/06 19:04:04 skodak Exp $
+<?php  //$Id$
 
 function cancel_email_update($userid) {
     unset_user_preference('newemail', $userid);

@@ -1,4 +1,4 @@
-<?php //$Id: index.php,v 1.13.2.1 2010/04/02 09:36:31 mudrd8mz Exp $
+<?php //$Id$
 
 require('../../config.php');
 require_once($CFG->libdir.'/adminlib.php');

@@ -1,4 +1,4 @@
-<?php // $Id: download.php,v 1.27.2.2 2009/11/21 23:09:28 skodak Exp $
+<?php // $Id$
 
     require_once ("../../config.php");
 

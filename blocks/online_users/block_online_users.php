@@ -1,4 +1,4 @@
-<?php //$Id: block_online_users.php,v 1.54.2.7 2009/11/20 03:08:59 andyjdavis Exp $
+<?php //$Id$
 
 /**
  * This block needs to be reworked.

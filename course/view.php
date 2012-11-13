@@ -1,4 +1,4 @@
-<?php // $Id: view.php,v 1.106.2.7 2009/10/03 01:35:05 nicolasconnault Exp $
+<?php // $Id$
 
 //  Display the course home page.
 

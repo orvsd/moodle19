@@ -1,4 +1,4 @@
-<?php // $Id: refresh.php,v 1.11.4.2 2011/09/21 15:53:58 moodlerobot Exp $
+<?php // $Id$
 
     require('../config.php');
 

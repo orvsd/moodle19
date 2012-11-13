@@ -1,4 +1,4 @@
-<?php  // $Id: lib.php,v 1.70.2.15 2009/06/09 05:12:02 samhemelryk Exp $
+<?php  // $Id$
 
 define('RESOURCE_LOCALPATH', 'LOCALPATH');
 

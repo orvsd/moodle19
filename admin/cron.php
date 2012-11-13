@@ -1,4 +1,4 @@
-<?php // $Id: cron.php,v 1.126.2.22 2011/08/30 23:43:18 moodlerobot Exp $
+<?php // $Id$
 
 /// This script looks through all the module directories for cron.php files
 /// and runs them.  These files can contain cleanup functions, email functions

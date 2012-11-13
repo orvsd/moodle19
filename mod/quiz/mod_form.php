@@ -1,4 +1,4 @@
-<?php // $Id: mod_form.php,v 1.28.2.12 2011/03/09 08:17:04 moodlerobot Exp $
+<?php // $Id$
 require_once ($CFG->dirroot.'/course/moodleform_mod.php');
 
 require_once("$CFG->dirroot/mod/quiz/locallib.php");

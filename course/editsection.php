@@ -1,4 +1,4 @@
-<?php // $Id: editsection.php,v 1.25.2.3 2011/08/30 23:43:19 moodlerobot Exp $
+<?php // $Id$
       // Edit the introduction of a section
 
     require_once("../config.php");

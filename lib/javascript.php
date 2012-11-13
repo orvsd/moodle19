@@ -1,4 +1,4 @@
-<?php  /// $Id: javascript.php,v 1.36.2.3 2008/07/18 07:14:12 scyrma Exp $
+<?php  /// $Id$
        /// Load up any required Javascript libraries
 
     if (!defined('MOODLE_INTERNAL')) {

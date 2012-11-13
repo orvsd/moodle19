@@ -1,4 +1,4 @@
-<?php // $Id: discussion.php,v 1.15.2.6 2009/11/20 03:52:07 andyjdavis Exp $
+<?php // $Id$
 
     require('../config.php');
     require('lib.php');

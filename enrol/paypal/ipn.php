@@ -1,4 +1,4 @@
-<?php  // $Id: ipn.php,v 1.22.2.1 2009/09/22 01:51:19 moodler Exp $
+<?php  // $Id$
 
 /**
 * Listens for Instant Payment Notification from PayPal

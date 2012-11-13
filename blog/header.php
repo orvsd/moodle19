@@ -1,4 +1,4 @@
-<?php //$Id: header.php,v 1.41.2.9 2010/06/01 03:32:37 moodler Exp $
+<?php //$Id$
 
 defined('MOODLE_INTERNAL') || die();
 

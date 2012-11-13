@@ -1,4 +1,4 @@
-<?php /// $Id: install.php,v 1.80.2.22 2011/08/03 16:28:18 moodlerobot Exp $
+<?php /// $Id$
       /// install.php - helps admin user to create a config.php file
 
 /// If config.php exists already then we are not needed.

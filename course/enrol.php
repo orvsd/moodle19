@@ -1,4 +1,4 @@
-<?php // $Id: enrol.php,v 1.50.2.2 2011/08/26 16:22:55 moodlerobot Exp $
+<?php // $Id$
       // Depending on the current enrolment method, this page
       // presents the user with whatever they need to know when
       // they try to enrol in a course.

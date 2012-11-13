@@ -1,4 +1,4 @@
-<?php  // $Id: lib.php,v 1.53.2.10 2011/12/23 02:38:07 moodlerobot Exp $
+<?php  // $Id$
 
 /// Library of functions and constants for module wiki
 /// (replace wiki with the name of your module and delete this line)

@@ -1,4 +1,4 @@
-<?php // $Id: assignment.class.php,v 1.12.2.3 2009/11/20 08:25:32 skodak Exp $
+<?php // $Id$
 
 /**
  * Extend the base assignment class for offline assignments

@@ -1,4 +1,4 @@
-<?php  //$Id: upgrade.php,v 1.1.8.3 2011/11/25 10:28:21 moodlerobot Exp $
+<?php  //$Id$
 
 // This file keeps track of upgrades to 
 // the label module

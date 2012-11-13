@@ -1,4 +1,4 @@
-<?php  // $Id: signup.php,v 1.56.2.3 2012/01/05 14:26:43 moodlerobot Exp $
+<?php  // $Id$
 
     require_once('../config.php');
     

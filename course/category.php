@@ -1,4 +1,4 @@
-<?php // $Id: category.php,v 1.119.2.16 2011/03/03 17:39:20 moodlerobot Exp $
+<?php // $Id$
       // Displays the top level category or all courses
       // In editing mode, allows the admin to edit a category,
       // and rearrange courses

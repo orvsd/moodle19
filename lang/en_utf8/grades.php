@@ -1,4 +1,4 @@
-<?PHP // $Id: grades.php,v 1.111.2.71 2010/08/12 01:32:56 andyjdavis Exp $
+<?PHP // $Id$
       // grades.php - created with Moodle 1.7 beta + (2006101003)
 
 

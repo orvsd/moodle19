@@ -1,4 +1,4 @@
-<?php  // $Id: questiontype.php,v 1.74.2.32 2010/08/11 19:05:50 tjhunt Exp $
+<?php  // $Id$
 /**
  * The default questiontype class.
  *

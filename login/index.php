@@ -1,4 +1,4 @@
-<?php // $Id: index.php,v 1.129.2.11 2011/02/17 00:44:15 moodlerobot Exp $
+<?php // $Id$
 
 
     require_once("../config.php");

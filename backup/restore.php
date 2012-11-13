@@ -1,4 +1,4 @@
-<?php //$Id: restore.php,v 1.44.2.8 2009/11/19 18:48:52 skodak Exp $
+<?php //$Id$
     //This script is used to configure and execute the restore proccess.
 
     //Define some globals for all the script

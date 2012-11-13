@@ -1,4 +1,4 @@
-<?php  // $Id: enrol.php,v 1.28.2.6 2009/10/30 22:09:23 poltawski Exp $
+<?php  // $Id$
        // Implements all the main code for the PayPal plugin
 
 require_once("$CFG->dirroot/enrol/enrol.class.php");

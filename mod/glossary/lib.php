@@ -1,4 +1,4 @@
-<?php  // $Id: lib.php,v 1.193.2.25 2011/05/18 10:36:16 moodlerobot Exp $
+<?php  // $Id$
 
 /// Library of functions and constants for module glossary
 /// (replace glossary with the name of your module and delete this line)

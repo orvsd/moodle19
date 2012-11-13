@@ -1,4 +1,4 @@
-README      $Id: README.txt,v 1.9.14.2 2011/08/03 16:28:18 moodlerobot Exp $
+README      $Id$
 ------
 
 QUICK INSTALL

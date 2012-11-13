@@ -1,4 +1,4 @@
-<?php  // $Id: locallib.php,v 1.127.2.17 2011/02/23 20:23:53 moodlerobot Exp $
+<?php  // $Id$
 /**
  * Library of functions used by the quiz module.
  *

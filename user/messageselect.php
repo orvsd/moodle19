@@ -1,4 +1,4 @@
-<?php // $Id: messageselect.php,v 1.15.2.6 2011/12/01 17:47:47 moodlerobot Exp $
+<?php // $Id$
 
     require_once('../config.php');
     require_once($CFG->dirroot.'/message/lib.php');

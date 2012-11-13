@@ -1,4 +1,4 @@
-<?php // $Id: scales.php,v 1.32.2.3 2010/04/09 08:33:06 arborrow Exp $
+<?php // $Id$
       // Allows a creator to edit custom scales, and also display help about scales
 
     require_once("../config.php");

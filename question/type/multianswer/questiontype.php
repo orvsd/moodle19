@@ -1,4 +1,4 @@
-<?php  // $Id: questiontype.php,v 1.41.2.22 2011/07/08 09:36:38 moodlerobot Exp $
+<?php  // $Id$
 
 ///////////////////
 /// MULTIANSWER /// (Embedded - cloze)

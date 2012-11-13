@@ -1,4 +1,4 @@
-<?php // $Id: import.php,v 1.46.2.5 2011/09/21 15:53:58 moodlerobot Exp $
+<?php // $Id$
 /**
  * Import quiz questions into the given category
  *

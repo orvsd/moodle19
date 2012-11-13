@@ -1,4 +1,4 @@
-<?php // $Id: assignment.class.php,v 1.32.2.20 2011/10/12 22:00:15 moodlerobot Exp $
+<?php // $Id$
 require_once($CFG->libdir.'/formslib.php');
 
 define('ASSIGNMENT_STATUS_SUBMITTED', 'submitted'); // student thinks it is finished

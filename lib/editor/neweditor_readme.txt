@@ -186,4 +186,4 @@ Possible configuration options for HTMLArea are:
 
 To be continue...
     
-$Id: neweditor_readme.txt,v 1.4.18.2 2012/04/12 15:03:25 moodlerobot Exp $
+$Id$

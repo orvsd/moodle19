@@ -22,4 +22,4 @@ marker.gif
 
 Petr Skoda (skodak), January 2008  
 
-$Id: README.txt,v 1.1.20.3 2012/04/12 15:03:25 moodlerobot Exp $
+$Id$

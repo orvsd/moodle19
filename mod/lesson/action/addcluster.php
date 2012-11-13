@@ -1,8 +1,8 @@
-<?php // $Id: addcluster.php,v 1.5.8.1 2009/11/02 17:01:06 tjhunt Exp $
+<?php // $Id$
 /**
  * Action for adding a cluster page
  *
- * @version $Id: addcluster.php,v 1.5.8.1 2009/11/02 17:01:06 tjhunt Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

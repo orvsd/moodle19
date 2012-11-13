@@ -1,4 +1,4 @@
-<?php // $Id: insert_image.php,v 1.9.8.3 2011/04/13 20:17:11 moodlerobot Exp $
+<?php // $Id$
 
     require("../../../../config.php");
 

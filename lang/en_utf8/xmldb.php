@@ -1,4 +1,4 @@
-<?PHP // $Id: xmldb.php,v 1.14.2.5 2011/08/03 16:28:17 moodlerobot Exp $ 
+<?PHP // $Id$ 
       // xmldb.php - created with Moodle 1.7 beta + (2006101003)
 
 

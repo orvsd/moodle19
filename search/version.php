@@ -1,4 +1,4 @@
-<?php // $Id: version.php,v 1.1.2.2 2009/07/22 21:52:08 diml Exp $
+<?php // $Id$
 
 ////////////////////////////////////////////////////////////////////////////////
 //  Code fragment to define the search version etc.

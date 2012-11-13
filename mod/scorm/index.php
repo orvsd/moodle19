@@ -1,4 +1,4 @@
-<?php // $Id: index.php,v 1.25.2.5 2010/06/23 23:13:18 danmarsden Exp $
+<?php // $Id$
 
     require_once("../../config.php");
     require_once($CFG->dirroot.'/mod/scorm/locallib.php');

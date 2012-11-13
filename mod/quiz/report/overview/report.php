@@ -2,7 +2,7 @@
 /**
  * This script lists student attempts
  *
- * @version $Id: report.php,v 1.98.2.61 2011/05/04 22:56:39 moodlerobot Exp $
+ * @version $Id$
  * @author Martin Dougiamas, Tim Hunt and others.
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package quiz

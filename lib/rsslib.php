@@ -1,4 +1,4 @@
-<?php  // $Id: rsslib.php,v 1.52.2.9 2011/08/18 00:53:34 moodlerobot Exp $
+<?php  // $Id$
        // This file contains all the common stuff to be used in RSS System
 
 //This function returns the icon (from theme) with the link to rss/file.php

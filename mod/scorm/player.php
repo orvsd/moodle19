@@ -1,4 +1,4 @@
-<?PHP  // $Id: player.php,v 1.34.2.18 2012/04/19 12:33:03 moodlerobot Exp $
+<?PHP  // $Id$
 
 /// This page prints a particular instance of aicc/scorm package
 

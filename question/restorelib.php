@@ -1,4 +1,4 @@
-<?php // $Id: restorelib.php,v 1.30.2.7 2010/06/10 14:58:37 tjhunt Exp $
+<?php // $Id$
 /**
  * Question bank restore code.
  *

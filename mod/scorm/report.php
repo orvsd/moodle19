@@ -1,4 +1,4 @@
-<?php  // $Id: report.php,v 1.46.2.13 2010/04/21 22:42:31 danmarsden Exp $
+<?php  // $Id$
 
 // This script uses installed report plugins to print quiz reports
 

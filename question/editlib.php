@@ -1,4 +1,4 @@
-<?php // $Id: editlib.php,v 1.76.2.13 2009/07/15 04:04:23 tjhunt Exp $
+<?php // $Id$
 /**
  * Functions used to show question editing interface
  *

@@ -1,4 +1,4 @@
-<?php // $Id: restore_bb.php,v 1.7.16.3 2009/09/16 11:18:56 danmarsden Exp $
+<?php // $Id$
 // This file facilitates the conversion of a Blackboard course export
 // into a Moodle course export.  It assumes an unzipped directory and makes in-place alterations.
 

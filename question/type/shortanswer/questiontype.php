@@ -1,4 +1,4 @@
-<?php  // $Id: questiontype.php,v 1.20.2.14 2010/08/03 10:39:54 tjhunt Exp $
+<?php  // $Id$
 
 ///////////////////
 /// SHORTANSWER ///

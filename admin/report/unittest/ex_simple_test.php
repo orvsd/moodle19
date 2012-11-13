@@ -6,7 +6,7 @@
  * @copyright &copy; 2006 The Open University
  * @author N.D.Freear@open.ac.uk, T.J.Hunt@open.ac.uk
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
- * @version $Id: ex_simple_test.php,v 1.1.2.5 2009/11/30 01:16:23 andyjdavis Exp $
+ * @version $Id$
  * @package SimpleTestEx
  */
 

@@ -1,4 +1,4 @@
-<?php  // $Id: preferences.php,v 1.18.2.2 2009/11/19 16:39:52 skodak Exp $
+<?php  // $Id$
        // preferences.php - user prefs for blog modeled on calendar
 
     require_once('../config.php');

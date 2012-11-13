@@ -1,4 +1,4 @@
-<?php  // $Id: format.php,v 1.12.4.5 2009/11/19 10:46:40 skodak Exp $
+<?php  // $Id$
 
 require_once("$CFG->dirroot/question/format/qti2/qt_common.php");
 ////////////////////////////////////////////////////////////////////////////

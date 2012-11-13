@@ -1,4 +1,4 @@
-<?php // $Id: fullscreen.php,v 1.6.6.3 2009/10/13 06:02:01 dongsheng Exp $
+<?php // $Id$
     require("../../../../config.php");
 
     $id = optional_param('id', SITEID, PARAM_INT);

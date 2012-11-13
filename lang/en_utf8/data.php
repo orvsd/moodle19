@@ -1,4 +1,4 @@
-<?PHP // $Id: data.php,v 1.53.4.23 2011/08/03 16:28:18 moodlerobot Exp $
+<?PHP // $Id$
 
 $string['action'] = 'Action';
 $string['add'] = 'Add entry';

@@ -1,4 +1,4 @@
-<?php // $Id: insert_image_std.php,v 1.5.8.3 2011/04/13 20:17:11 moodlerobot Exp $
+<?php // $Id$
     require("../../../../config.php");
 
     $id = optional_param('id', SITEID, PARAM_INT);

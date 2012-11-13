@@ -1,4 +1,4 @@
-<?php //$Id: restorelib.php,v 1.283.2.98 2011/10/19 19:39:26 moodlerobot Exp $
+<?php //$Id$
     //Functions used in restore
 
     require_once($CFG->libdir.'/gradelib.php');

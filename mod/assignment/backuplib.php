@@ -1,4 +1,4 @@
-<?php //$Id: backuplib.php,v 1.12.8.4 2011/08/11 22:45:40 moodlerobot Exp $
+<?php //$Id$
     //This php script contains all the stuff to backup/restore
     //assignment mods
 

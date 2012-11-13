@@ -1,4 +1,4 @@
-<?php // $Id: login.php,v 1.1.2.4 2009/10/09 11:07:22 exe-cutor Exp $
+<?php // $Id$
 
     require_once("../../config.php");
     require_once($CFG->dirroot."/auth/shibboleth/auth.php");

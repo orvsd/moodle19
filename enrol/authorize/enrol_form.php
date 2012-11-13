@@ -1,4 +1,4 @@
-<?php // $Id: enrol_form.php,v 1.16.2.7 2009/11/19 10:15:21 skodak Exp $
+<?php // $Id$
 
 require_once($CFG->libdir.'/formslib.php');
 

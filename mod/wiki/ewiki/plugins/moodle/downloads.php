@@ -1,4 +1,4 @@
-<?php // $Id: downloads.php,v 1.16.4.3 2009/10/05 17:51:14 skodak Exp $
+<?php // $Id$
     require_once("../../config.php"); 
     require_once($CFG->libdir.'/filelib.php');
 

@@ -1,4 +1,4 @@
-<?PHP  // $Id: lib.php,v 1.79.2.27 2012/05/19 11:04:52 moodlerobot Exp $
+<?PHP  // $Id$
 
 //////////////////////////////////
 /// CONFIGURATION settings

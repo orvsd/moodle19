@@ -1,4 +1,4 @@
-<?php // $Id: localfuncs.php,v 1.10.2.3 2011/07/26 09:23:15 moodlerobot Exp $
+<?php // $Id$
 
 function get_course_cost($course)
 {

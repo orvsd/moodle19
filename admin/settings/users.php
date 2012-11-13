@@ -1,4 +1,4 @@
-<?php // $Id: users.php,v 1.26.2.18 2010/04/10 15:11:49 iarenaza Exp $
+<?php // $Id$
 
 // This file defines settingpages and externalpages under the "users" category
 

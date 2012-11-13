@@ -1,4 +1,4 @@
-<?php // $Id: assignment.class.php,v 1.46.2.10 2010/09/16 05:45:42 samhemelryk Exp $
+<?php // $Id$
 require_once($CFG->libdir.'/formslib.php');
 
 /**

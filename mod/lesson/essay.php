@@ -1,8 +1,8 @@
-<?php  // $Id: essay.php,v 1.9.2.2 2011/02/17 00:44:15 moodlerobot Exp $
+<?php  // $Id$
 /**
  * Provides the interface for grading essay questions
  *
- * @version $Id: essay.php,v 1.9.2.2 2011/02/17 00:44:15 moodlerobot Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

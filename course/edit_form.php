@@ -1,4 +1,4 @@
-<?php  //$Id: edit_form.php,v 1.37.2.20 2010/05/13 01:40:36 moodler Exp $
+<?php  //$Id$
 
 if (!defined('MOODLE_INTERNAL')) {
     die('Direct access to this script is forbidden.');    ///  It must be included from a Moodle page

@@ -1,4 +1,4 @@
-<?php //$Id: comment_form.php,v 1.10.4.1 2010/05/13 01:40:38 moodler Exp $
+<?php //$Id$
 
 if (!defined('MOODLE_INTERNAL')) {
     die('Direct access to this script is forbidden.');    ///  It must be included from a Moodle page

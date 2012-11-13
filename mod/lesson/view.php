@@ -1,8 +1,8 @@
-<?php  // $Id: view.php,v 1.131.2.4 2011/08/03 16:28:19 moodlerobot Exp $
+<?php  // $Id$
 /**
  * This page prints a particular instance of lesson
  *
- * @version $Id: view.php,v 1.131.2.4 2011/08/03 16:28:19 moodlerobot Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

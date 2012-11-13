@@ -1,4 +1,4 @@
-<?php // $Id: lib.php,v 1.59.2.29 2009/11/22 11:09:31 skodak Exp $
+<?php // $Id$
 
 $COLUMN_HEIGHT = 300;
 

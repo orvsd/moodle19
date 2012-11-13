@@ -1,5 +1,5 @@
 #!/usr/bin/php -f
-<?php // $Id: process_email.php,v 1.5.4.2 2009/10/30 16:24:00 poltawski Exp $
+<?php // $Id$
 define('FULLME','cron'); // prevent warnings
 //error_reporting(0);
 //ini_set('display_errors',0);

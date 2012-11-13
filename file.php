@@ -1,4 +1,4 @@
-<?php // $Id: file.php,v 1.46.2.6 2011/02/02 13:15:23 moodlerobot Exp $
+<?php // $Id$
       // This script fetches files from the dataroot directory
       //
       // You should use the get_file_url() function, available in lib/filelib.php, to link to file.php.

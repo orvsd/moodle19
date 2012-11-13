@@ -1,4 +1,4 @@
-<?php  // $Id: questiontype.php,v 1.26.2.18 2010/04/29 10:41:53 tjhunt Exp $
+<?php  // $Id$
 
 /////////////////
 // CALCULATED ///

@@ -1,4 +1,4 @@
-<?php // $Id: index.php,v 1.35.2.8 2009/09/26 19:47:08 skodak Exp $
+<?php // $Id$
 
 /**
  * file index.php

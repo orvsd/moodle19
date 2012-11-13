@@ -1,4 +1,4 @@
-<?php  // $Id: questiontype.php,v 1.32.2.13 2012/01/12 10:58:51 moodlerobot Exp $
+<?php  // $Id$
 
 /////////////
 /// MATCH ///

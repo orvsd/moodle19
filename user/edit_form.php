@@ -1,4 +1,4 @@
-<?php //$Id: edit_form.php,v 1.24.2.15 2011/03/16 08:42:21 moodlerobot Exp $
+<?php //$Id$
 
 require_once($CFG->dirroot.'/lib/formslib.php');
 

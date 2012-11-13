@@ -1,4 +1,4 @@
-<?php //$Id: block_admin.php,v 1.100.2.14 2010/02/24 08:56:41 poltawski Exp $
+<?php //$Id$
 
 class block_admin extends block_list {
     function init() {

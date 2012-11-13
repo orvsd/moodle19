@@ -1,4 +1,4 @@
-<?php // $Id: resource.class.php,v 1.71.2.35 2011/10/12 22:00:15 moodlerobot Exp $
+<?php // $Id$
 
 /**
 * Extend the base resource class for file resources

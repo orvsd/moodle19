@@ -1,4 +1,4 @@
-<?php // $Id: security.php,v 1.21.2.17 2012/01/05 14:26:42 moodlerobot Exp $
+<?php // $Id$
 
 if ($hassiteconfig) { // speedup for non-admins, add all caps used on this page
 

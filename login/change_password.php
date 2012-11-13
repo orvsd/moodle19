@@ -1,4 +1,4 @@
-<?PHP // $Id: change_password.php,v 1.62.2.4 2011/11/15 11:30:59 moodlerobot Exp $
+<?PHP // $Id$
 
     require_once('../config.php');
     require_once('change_password_form.php');

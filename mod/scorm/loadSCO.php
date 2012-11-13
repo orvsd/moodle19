@@ -1,4 +1,4 @@
-<?php  // $Id: loadSCO.php,v 1.33.4.14 2010/07/22 02:20:11 danmarsden Exp $
+<?php  // $Id$
     require_once('../../config.php');
     require_once($CFG->dirroot.'/mod/scorm/locallib.php');
 

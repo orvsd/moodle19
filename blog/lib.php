@@ -1,4 +1,4 @@
-<?php //$Id: lib.php,v 1.80.2.22 2012/03/29 14:17:54 moodlerobot Exp $
+<?php //$Id$
 
     /**
      * Library of functions and constants for blog

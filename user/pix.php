@@ -1,4 +1,4 @@
-<?PHP // $Id: pix.php,v 1.16.4.4 2012/01/05 14:26:43 moodlerobot Exp $
+<?PHP // $Id$
       // This function fetches user pictures from the data directory
       // Syntax:   pix.php/userid/f1.jpg or pix.php/userid/f2.jpg
       //     OR:   ?file=userid/f1.jpg or ?file=userid/f2.jpg

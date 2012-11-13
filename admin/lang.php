@@ -1,4 +1,4 @@
-<?PHP // $Id: lang.php,v 1.106.2.15 2009/11/26 14:32:57 mudrd8mz Exp $
+<?PHP // $Id$
     /**
     * Display the admin/language menu and process strings translation.
     *

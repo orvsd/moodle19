@@ -1,4 +1,4 @@
-<?php // $Id: tabs.php,v 1.27.2.8 2009/11/20 01:42:11 andyjdavis Exp $
+<?php // $Id$
 
 // Handles headers and tabs for the roles control at any level apart from SYSTEM level
 // We also assume that $currenttab, $assignableroles and $overridableroles are defined

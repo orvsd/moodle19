@@ -1,4 +1,4 @@
-<?php  // $Id: lib.php,v 1.98.2.9 2010/06/03 08:55:45 mudrd8mz Exp $
+<?php  // $Id$
 
 // workshop constants and standard Moodle functions plus the workshop functions
 // called by the standard functions

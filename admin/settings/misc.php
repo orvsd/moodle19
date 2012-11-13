@@ -1,4 +1,4 @@
-<?php // $Id: misc.php,v 1.14.2.7 2009/10/26 08:56:22 stronk7 Exp $
+<?php // $Id$
 
 // * Miscellaneous settings
 

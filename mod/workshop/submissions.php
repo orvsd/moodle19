@@ -1,4 +1,4 @@
-<?php  // $Id: submissions.php,v 1.60.2.9 2009/11/12 21:30:49 mudrd8mz Exp $
+<?php  // $Id$
 
 /*************************************************
     ACTIONS handled are:

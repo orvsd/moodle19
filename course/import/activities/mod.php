@@ -1,4 +1,4 @@
-<?php  // $Id: mod.php,v 1.9.2.5 2010/06/12 10:10:49 stronk7 Exp $
+<?php  // $Id$
 
     if (!defined('MOODLE_INTERNAL')) {
         die('Direct access to this script is forbidden.');    ///  It must be included from a Moodle page

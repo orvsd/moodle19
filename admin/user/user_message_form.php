@@ -1,4 +1,4 @@
-<?php //$Id: user_message_form.php,v 1.2.2.2 2010/01/13 07:56:20 rwijaya Exp $
+<?php //$Id$
 
 require_once($CFG->libdir.'/formslib.php');
 

@@ -1,4 +1,4 @@
-<?PHP // $Id: view.php,v 1.38.2.14 2012/05/19 11:04:52 moodlerobot Exp $
+<?PHP // $Id$
     /// This page prints a hotpot quiz
     if (defined('HOTPOT_FIRST_ATTEMPT') && HOTPOT_FIRST_ATTEMPT==false) {
         // this script is being included (by attempt.php)

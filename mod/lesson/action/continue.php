@@ -1,8 +1,8 @@
-<?php // $Id: continue.php,v 1.39.2.12 2011/11/15 11:30:59 moodlerobot Exp $
+<?php // $Id$
 /**
  * Action for processing page answers by users
  *
- * @version $Id: continue.php,v 1.39.2.12 2011/11/15 11:30:59 moodlerobot Exp $
+ * @version $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package lesson
  **/

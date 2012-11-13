@@ -1,4 +1,4 @@
-<?php // $Id: sequencinglib.php,v 1.17.2.2 2010/06/23 23:13:19 danmarsden Exp $
+<?php // $Id$
 require ($CFG->dirroot.'/mod/scorm/datamodels/scormlib.php');
 
 function scorm_seq_evaluate($scoid,$usertracks) {

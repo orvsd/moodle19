@@ -1,10 +1,10 @@
-<?php  // $Id: moodleblock.class.php,v 1.92.2.12 2009/08/13 08:14:31 skodak Exp $
+<?php  // $Id$
 
 /**
  * This file contains the parent class for moodle blocks, block_base.
  *
  * @author Jon Papaioannou
- * @version  $Id: moodleblock.class.php,v 1.92.2.12 2009/08/13 08:14:31 skodak Exp $
+ * @version  $Id$
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  * @package blocks
  */

@@ -1,4 +1,4 @@
-<?php  //$Id: upgrade.php,v 1.13.2.5 2010/07/17 06:47:04 danmarsden Exp $
+<?php  //$Id$
 
 // This file keeps track of upgrades to 
 // the scorm module

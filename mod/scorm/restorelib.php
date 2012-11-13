@@ -1,4 +1,4 @@
-<?php //$Id: restorelib.php,v 1.29.2.6 2010/06/25 08:17:49 danmarsden Exp $
+<?php //$Id$
     //This php script contains all the stuff to backup/restore
     //reservation mods
 

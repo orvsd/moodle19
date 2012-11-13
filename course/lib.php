@@ -1,4 +1,4 @@
-<?php  // $Id: lib.php,v 1.538.2.83 2011/07/26 09:23:16 moodlerobot Exp $
+<?php  // $Id$
    // Library of useful functions
 
 

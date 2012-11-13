@@ -1,4 +1,4 @@
-<?PHP // $Id: algebradebug.php,v 1.19.2.3 2010/04/01 17:10:58 skodak Exp $
+<?PHP // $Id$
       // This function fetches math. images from the data directory
       // If not, it obtains the corresponding TeX expression from the cache_tex db table
       // and uses mimeTeX to create the image file
