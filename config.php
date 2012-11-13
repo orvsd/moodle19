@@ -39,7 +39,11 @@ require_once('/data/moodledata/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['F
 
 // Enable when using external SSL appliance for performance reasons.
 // Please note that site may be accessible via https: or https:, but not both!
-$CFG->sslproxy = true;
+$CFG->sslproxy  = true;
+
+// Bad things happen when we don't use dbsessions in our clustered environment.
+// Installations will fail if this is not set to 1.
+$CFG->dbsessions = 1;
 
 // Now you need to tell Moodle where it is located. Specify the full
 // web address to where moodle has been installed.
