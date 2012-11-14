@@ -335,7 +335,9 @@
 
         global $CFG, $db;
 
-        require_once ("$CFG->dirroot/backup/version.php");  // Get code versions
+        // FIX: http://tracker.moodle.org/browse/MDL-21640
+        // MDL-21640.backup.lib.php.patch
+        require ("$CFG->dirroot/backup/version.php");  // Get code versions
 
         if (empty($CFG->backup_version)) {                  // Backup has never been installed.
             $strdatabaseupgrades = get_string("databaseupgrades");
