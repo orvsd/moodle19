@@ -55,6 +55,11 @@ $CFG->dirroot   = '/var/www/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['FQDN
 $CFG->dataroot  = '/data/moodledata/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['FQDN'];
 $CFG->directorypermissions = 02770;
 
+// Faster system utils
+$CFG->zip       = '/usr/bin/zip';
+$CFG->unzip     = '/usr/bin/unzip';
+$CFG->du        = '/usr/bin/du';
+
 //=========================================================================
 // ALL DONE!  To continue installation, visit your main page with a browser
 //=========================================================================
