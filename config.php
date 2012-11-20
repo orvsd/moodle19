@@ -51,12 +51,12 @@ $CFG->dbsessions = 1;
 
 // Now you need to tell Moodle where it is located. Specify the full
 // web address to where moodle has been installed.
-$CFG->wwwroot   = 'https://' . $_SERVER['FQDN'];
+$CFG->wwwroot   = 'https://' . $orvsdfqdn
 // ORVSD fix for Moodle 1.9 to allow sslproxy termination.
 if (php_sapi_name() != 'cli') $_SERVER[SERVER_PORT] = 443;
 
-$CFG->dirroot   = '/var/www/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['FQDN'] . '/moodle';
-$CFG->dataroot  = '/data/moodledata/' . $_SERVER['USER'] . '/moodle19/' . $_SERVER['FQDN'];
+$CFG->dirroot   = '/var/www/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/moodle';
+$CFG->dataroot  = '/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn;
 $CFG->directorypermissions = 02770;
 
 // Faster system utils
