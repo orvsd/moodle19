@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/siteinfo/db" VERSION="20120423" COMMENT="XMLDB file for Siteinfo module"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="siteinfo" COMMENT="Stores metadata about this instance of Moodle.">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="baseurl"/>
+        <FIELD NAME="baseurl" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="id" NEXT="basepath"/>
+        <FIELD NAME="basepath" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="baseurl" NEXT="sitename"/>
+        <FIELD NAME="sitename" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="basepath" NEXT="sitetype"/>
+        <FIELD NAME="sitetype" TYPE="char" LENGTH="16" NOTNULL="true" SEQUENCE="false" PREVIOUS="sitename" NEXT="siteversion"/>
+        <FIELD NAME="siteversion" TYPE="char" LENGTH="16" NOTNULL="false" SEQUENCE="false" PREVIOUS="sitetype" NEXT="siterelease"/>
+        <FIELD NAME="siterelease" TYPE="char" LENGTH="32" NOTNULL="false" SEQUENCE="false" PREVIOUS="siteversion" NEXT="adminemail"/>
+        <FIELD NAME="adminemail" TYPE="char" LENGTH="128" NOTNULL="false" SEQUENCE="false" PREVIOUS="siterelease" NEXT="totalusers"/>
+        <FIELD NAME="totalusers" TYPE="int" LENGTH="8" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="adminemail" NEXT="adminusers"/>
+        <FIELD NAME="adminusers" TYPE="int" LENGTH="8" NOTNULL="false" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="totalusers" NEXT="teachers"/>
+        <FIELD NAME="teachers" TYPE="int" LENGTH="8" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="adminusers" NEXT="activeusers"/>
+        <FIELD NAME="activeusers" TYPE="int" LENGTH="8" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="teachers" NEXT="totalcourses"/>
+        <FIELD NAME="totalcourses" TYPE="int" LENGTH="8" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="activeusers" NEXT="courses"/>
+        <FIELD NAME="courses" TYPE="text" NOTNULL="false" SEQUENCE="false" PREVIOUS="totalcourses" NEXT="timemodified"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="courses"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>
