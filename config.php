@@ -41,9 +41,13 @@ $orvsduser = $orvsdcwd[3];
 $orvsdfqdn = $orvsdcwd[5];
 require_once('/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/config.php');
 
-// Enable when using external SSL appliance for performance reasons.
-// Please note that site may be accessible via https: or https:, but not both!
-$CFG->sslproxy  = true;
+// Nginx is now passing the X-Forwarded-Proto header to Nginx, which maps to the
+// fastcgi_param PHP variable HTTPS and triggers it either on or off based on the
+// protocol in use.  This lets us use loginhttps, disable the sslproxy and set the
+// wwwroot to http:// in order to avoid mixed content warnings with the media
+// servers and embedded things.
+$CFG->sslproxy = false;
+$CFG->loginhttps = true;
 
 // Bad things happen when we don't use dbsessions in our clustered environment.
 // Installations will fail if this is not set to 1.
@@ -51,9 +55,7 @@ $CFG->dbsessions = 1;
 
 // Now you need to tell Moodle where it is located. Specify the full
 // web address to where moodle has been installed.
-$CFG->wwwroot   = 'https://' . $orvsdfqdn;
-// ORVSD fix for Moodle 1.9 to allow sslproxy termination.
-if (php_sapi_name() != 'cli') $_SERVER['SERVER_PORT'] = 443;
+$CFG->wwwroot   = 'http://' . $orvsdfqdn;
 
 $CFG->dirroot   = '/var/www/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/moodle';
 $CFG->dataroot  = '/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn;
