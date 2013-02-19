@@ -41,11 +41,11 @@ $orvsduser = $orvsdcwd[3];
 $orvsdfqdn = $orvsdcwd[5];
 require_once('/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/config.php');
 
-// Nginx is now passing the X-Forwarded-Proto header to Nginx, which maps to the
+// HAProxy is now passing the X-Forwarded-Proto header to Nginx, which maps to the
 // fastcgi_param PHP variable HTTPS and triggers it either on or off based on the
 // protocol in use.  This lets us use loginhttps, disable the sslproxy and set the
 // wwwroot to http:// in order to avoid mixed content warnings with the media
-// servers and embedded things.
+// servers and external resources.
 $CFG->sslproxy = false;
 $CFG->loginhttps = true;
 
