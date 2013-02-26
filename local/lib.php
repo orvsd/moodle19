@@ -31,23 +31,21 @@ defined('MOODLE_INTERNAL') || die;
  */
 
 function siteinfo_init_db() {
+
     global $CFG, $DB, $SITE;
+
 
     // timeframe - default is within the last month, 
     // i.e time() - 2592000 seconds (30 days)
     // other options:
     // in the last week = time() - 604800
     $timeframe = time() - 2592000;
-    
+
+
     // teachers = regular and non-editing teachers
     $teachers = siteinfo_usercount("teacher",null);
     
-    $courselist = siteinfo_courselist();
-    $courselist_string = '';
-
-    if (count($courselist) > 0) {
-     $courselist_string = implode(',', $courselist);
-    }
+    $courselist_string = siteinfo_courselist(); 
 
     $siteinfo = new stdClass();
     $siteinfo->baseurl      = $CFG->wwwroot;
@@ -56,6 +54,7 @@ function siteinfo_init_db() {
     $siteinfo->sitetype     = "moodle";
     $siteinfo->siteversion  = $CFG->version;
     $siteinfo->siterelease  = $CFG->release;
+    $siteinfo->location     = gethostname();
     $siteinfo->adminemail   = $CFG->supportemail;
     $siteinfo->totalusers   = siteinfo_usercount(null, null);
     $siteinfo->adminusers   = intval($CFG->siteadmins);
@@ -65,7 +64,7 @@ function siteinfo_init_db() {
     $siteinfo->courses      = $courselist_string;
     $siteinfo->timemodified = time();
     
-    $DB->insert_record('siteinfo', $siteinfo);
+    insert_record('siteinfo', $siteinfo);
 
     return true;
 }
@@ -76,7 +75,7 @@ function siteinfo_init_db() {
  * @return bool
  */
 function siteinfo_update_db() {
-    global $CFG, $DB, $SITE;
+    global $CFG, $SITE;
     // timeframe - default is within the last month, 
     // i.e time() - 2592000 seconds (30 days)
     // other options:
@@ -86,12 +85,7 @@ function siteinfo_update_db() {
     // teachers = regular and non-editing teachers
     $teachers = siteinfo_usercount("teacher",null);
     
-    $courselist = siteinfo_courselist();
-    $courselist_string = '';
-
-    if (count($courselist) > 0) {
-     $courselist_string = implode(',', $courselist);
-    }
+    $courselist_string = siteinfo_courselist(); 
 
     $siteinfo = new stdClass();
     $siteinfo->id           = 1;
@@ -101,6 +95,7 @@ function siteinfo_update_db() {
     $siteinfo->sitetype     = "moodle";
     $siteinfo->siteversion  = $CFG->version;
     $siteinfo->siterelease  = $CFG->release;
+    $siteinfo->location     = gethostname();
     $siteinfo->adminemail   = $CFG->supportemail;
     $siteinfo->totalusers   = siteinfo_usercount(null, null);
     $siteinfo->adminusers   = intval($CFG->siteadmins);
@@ -111,7 +106,7 @@ function siteinfo_update_db() {
     $siteinfo->timemodified = time();
 
     try {
-        $DB->update_record('siteinfo', $siteinfo);
+        update_record('siteinfo', $siteinfo);
     } catch (Exception $e) {
         //echo 'Caught exception: ',  $e->getMessage(), "\n";
         return false;
@@ -124,15 +119,7 @@ function siteinfo_update_db() {
  * @return int
  */
 function siteinfo_usercount($role="none", $timeframe=null) {
-    global $CFG, $DB;
-    /* @TODO: add logic to extract the number of users in a particular role
-      i.e. teacher, and users who have logged in within some timeframe
-      roles:
-      1: Manager, 2: Course creator, 3: Teacher, 4: Non-editing teacher
-      5: Student, 6: Guest, 7: Authenticated user, 
-      8: Authenticated user on frontpage
-      $timeframe is a unix timestamp
-     */
+    global $CFG;
 
     switch ($role) {
       case "teacher":
@@ -168,7 +155,7 @@ function siteinfo_usercount($role="none", $timeframe=null) {
     }
 
     if($role) {
-      $sql = "SELECT COUNT(DISTINCT userid)
+      $sql = "SELECT COUNT(*)
               FROM mdl_role_assignments
               LEFT JOIN mdl_user
               ON mdl_user.id = mdl_role_assignments.userid
@@ -183,7 +170,7 @@ function siteinfo_usercount($role="none", $timeframe=null) {
                $where";
     }
 
-    $count = $DB->count_records_sql($sql, null);
+    $count = count_records_sql($sql, null);
 
     return intval($count);
 }
@@ -194,22 +181,31 @@ function siteinfo_usercount($role="none", $timeframe=null) {
  * @TODO: write this function 
  */
 function siteinfo_courselist() {
-  global $CFG, $DB;
-  // get all course idnumbers
-  $table = 'course';
-  $select = 'format != "site"';
-  $params = null;
-  $sort = 'id';
-  $fields = 'id,idnumber';
-  $courses = $DB->get_records_select_menu($table,$select,$params,$sort,$fields);
-  $course_list = array();
-  foreach($courses as $id=>$course) {
-    if($course) {
-      $enrolled = siteinfo_get_enrolments($id);
-      $course_list[] = $course . ":" . $enrolled;
+    global $CFG;
+    // get all course idnumbers
+    $table = 'course';
+    $select = 'format != "site"';
+    $params = null;
+    $sort = 'id';
+    $fields = 'id,shortname,idnumber';
+    $courses = get_records_select($table,$select);
+    $course_list = array();
+    foreach($courses as $id=>$course) {
+        if($course) {
+          $enrolled = siteinfo_get_enrolments($id);
+          $course_list[] = '{"serial":"0",' . 
+                            '"shortname":"' . htmlentities($course->shortname) . 
+                            '","enrolled":' . $enrolled . '}';
+        }
     }
-  }
-  return $course_list;
+    $courselist_string = '';
+
+    if (count($course_list) > 0) {
+     $courselist_string = "[" . implode(',', $course_list) . "]";
+    }
+
+    return $courselist_string;
+
 }
 
 /**
@@ -218,15 +214,16 @@ function siteinfo_courselist() {
  * @TODO: write this function 
  */
 function siteinfo_get_enrolments($courseid) {
-  global $CFG, $DB;
+  global $CFG;
 
-  $sql = "select count(userid) 
-          from mdl_enrol
-          left join mdl_user_enrolments
-            on mdl_user_enrolments.enrolid=mdl_enrol.id
-          where mdl_enrol.roleid=5
-          and mdl_enrol.courseid=$courseid";
+  $sql = "select count(mdl_role_assignments.userid) 
+          from mdl_role_assignments
+          left join mdl_context
+            on mdl_context.id = mdl_role_assignments.contextid
+          where mdl_context.contextlevel=50
+          and mdl_context.instanceid=$courseid
+          and mdl_role_assignments.roleid=5";
   
   $params = null;
-  return $DB->get_field_sql($sql,$params, IGNORE_MISSING);
+  return get_field_sql($sql,$params, IGNORE_MISSING);
 }

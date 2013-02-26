@@ -12,8 +12,9 @@
         <FIELD NAME="sitename" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="basepath" NEXT="sitetype"/>
         <FIELD NAME="sitetype" TYPE="char" LENGTH="16" NOTNULL="true" SEQUENCE="false" PREVIOUS="sitename" NEXT="siteversion"/>
         <FIELD NAME="siteversion" TYPE="char" LENGTH="16" NOTNULL="false" SEQUENCE="false" PREVIOUS="sitetype" NEXT="siterelease"/>
-        <FIELD NAME="siterelease" TYPE="char" LENGTH="32" NOTNULL="false" SEQUENCE="false" PREVIOUS="siteversion" NEXT="adminemail"/>
-        <FIELD NAME="adminemail" TYPE="char" LENGTH="128" NOTNULL="false" SEQUENCE="false" PREVIOUS="siterelease" NEXT="totalusers"/>
+        <FIELD NAME="siterelease" TYPE="char" LENGTH="32" NOTNULL="false" SEQUENCE="false" PREVIOUS="siteversion" NEXT="location"/>
+        <FIELD NAME="location" TYPE="char" LENGTH="32" NOTNULL="false" SEQUENCE="false" PREVIOUS="siterelease" NEXT="adminemail"/> 
+        <FIELD NAME="adminemail" TYPE="char" LENGTH="128" NOTNULL="false" SEQUENCE="false" PREVIOUS="location" NEXT="totalusers"/>
         <FIELD NAME="totalusers" TYPE="int" LENGTH="8" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="adminemail" NEXT="adminusers"/>
         <FIELD NAME="adminusers" TYPE="int" LENGTH="8" NOTNULL="false" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="totalusers" NEXT="teachers"/>
         <FIELD NAME="teachers" TYPE="int" LENGTH="8" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="adminusers" NEXT="activeusers"/>
