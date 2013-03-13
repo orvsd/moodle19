@@ -39,7 +39,6 @@ $CFG = new stdClass();
 $orvsdcwd = explode("/", getcwd());
 $orvsduser = $orvsdcwd[3];
 $orvsdfqdn = $orvsdcwd[5];
-require_once('/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/config.php');
 
 // HAProxy is now passing the X-Forwarded-Proto header to Nginx, which maps to the
 // fastcgi_param PHP variable HTTPS and triggers it either on or off based on the
@@ -60,6 +59,8 @@ $CFG->wwwroot   = 'http://' . $orvsdfqdn;
 $CFG->dirroot   = '/var/www/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/moodle';
 $CFG->dataroot  = '/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn;
 $CFG->directorypermissions = 02770;
+
+require_once('/data/moodledata/' . $orvsduser . '/moodle19/' . $orvsdfqdn . '/config.php');
 
 // Faster system utils
 $CFG->zip       = '/usr/bin/zip';
