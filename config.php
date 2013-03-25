@@ -48,9 +48,7 @@ $orvsdfqdn = $orvsdcwd[5];
 $CFG->sslproxy = false;
 $CFG->loginhttps = true;
 
-// Bad things happen when we don't use dbsessions in our clustered environment.
-// Installations will fail if this is not set to 1.
-$CFG->dbsessions = 1;
+$CFG->dbsessions = 0;
 
 // Now you need to tell Moodle where it is located. Specify the full
 // web address to where moodle has been installed.
