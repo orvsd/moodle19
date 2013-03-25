@@ -1,0 +1,119 @@
+//////////////////////////////////////////////////////////////////////////////////
+//  The Audio Recorder - designed to be a Standalone Web Server version 	//
+//  and Moodle Activity.							//
+//										//
+//  Copyright (C) 2006  The University of Nottingham, School of Education.	//
+//  Information: http://disseminator.nottingham.ac.uk/ar/			//
+//  										//
+//										//
+//  This program is free software; you can redistribute it and/or 		//
+//  modify it under the terms of the GNU General Public License			//
+//  as published by the Free Software Foundation; either version 2		//
+//  of the License, or (at your option) any later version.			//
+//										//
+//  This program is distributed in the hope that it will be useful,		//
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of		//
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the		//		
+//  GNU General Public License for more details.				//	
+//										//	
+//	http://www.gnu.org/copyleft/gpl.html					//
+//////////////////////////////////////////////////////////////////////////////////  
+
+
+Background Information:
+
+Developed by the School of Education at the University of Nottingham for educational purposes, this Flash-based learning tool allows students to record an MP3 audio file, saving to a local folder. In Moodle, the tool is fully integrated into with the assignment module. 
+
+This module has a Flash interface and uses an ActiveX control to create the MP3 audio file, hence it will only work in Internet Explorer.
+
+Please note that MP3 encoding is not free or open source and a licence is required for commercial (revenue-generating) use. Please refer to http://www.mp3licensing.com for more information. 
+
+=======================================================================
+
+Installation Instructions:
+
+1. Download the zip file (Moodle version)
+
+2. Extract the files to <your moodle folder>/mod
+
+3. Copy lang/en_utf8/audiorecorder.php into <moodle>/lang/en_utf8
+
+4. Log into Moodle as administrator
+
+5. The activity files need to be installed into Moodle. There are several ways to do this but the easiest way is to click on 'Notification' under 'Site Administration'. This should setup all the required tables.
+
+6. Go back to Site Administration -> Modules -> Activities. You should now see the AudioRecorder Activity module.
+
+The default local audiorecorder path is c:\audiorecorder. If you need to change this to say x:\audiorecorder, then select 'Settings'.
+
+Here you can also change the Maximum recording time. Please note that large audio files may timeout and fail to upload. It is recommended that you use a maximum 4 minutes and allow the user to upload multiple files instead.
+
+7. Go to your course as an administrator or course editor, switch on editing. The Audio Recorder should appear under Add an Activity dropdown menu.
+
+8. Select 'AudioRecorder' from the menu and create your activity. Here you can set the maximum number of uploaded files (up to 10) and also allow/disallow students to delete their files before sending.
+
+=======================================================================
+
+Re-Install Instructions:
+
+If something is not quite right and you want to re-install the Audio Recorder, make sure you 
+have removed the ActiveX Control.
+
+To do this:
+
+1. Go to Tools -> General (tab) -> Browsing History -> Settings -> View Objects
+
+2. Delete AudioRecorder ActiveX Control
+
+3. If you have changed the default directory path in Moodle and can't see the changes, you may need to remove the AudioRecorder registry key. 
+Go to Start -> All Programs - > Run -> <type regedit>
+Under HKEY_CURRENT_USER -> Software -> AudioRecorder, delete the 'LocalPath' key
+
+4. Re-install as normal
+
+=======================================================================
+
+IMPORTANT NOTE FOR VISTA
+
+Due to the security restriction of Windows Vista system, users need to add your Moodle website into IE's "Trusted Site" area.
+
+To add a website into a trusted area, see Windows Vista help.
+
+http://windowshelp.microsoft.com/Windows/en-US/help/fd277a6b-3722-445b-b32e-1f8e925c385a1033.mspx
+
+=======================================================================
+
+Log:
+
+AR 1.1
+24-Apr-08 | Added multiple file uploads
+24-Apr-08 | Integration with Moodle's audio playback facility
+24-Apr-08 | Set local default path
+24-Apr-08 | Set max time of recordings
+24-Apr-08 | Changed help url location
+24-Apr-08 | New setting to allow/disallow deletion of uploaded files
+24-Apr-08 | New setting for tutor to set the number of files that can be uploaded (up to 10)
+24-Apr-08 | Support for Moodle 1.8 XML DB installation
+
+AR 1.0
+09-Oct-07 | Change recording rating to 44Hz
+08-Jun-07 | Added backuplib.php
+08-Jun-07 | Added restorelib.php
+08-Jun-07 | Replaced view.php to fix a Breadcrumb problem in Moodle 1.8
+08-Jun-07 | Replaced lib.php to fix instructions information box and to show upload file feature
+08-Jun-07 | Removed references to Workspace in Flash file which is another project.
+08-Jun-07 | Added functionality to display Audio Recorder assignment in My Moodle page
+
+=======================================================================
+
+Credits:
+
+Mr Quang-Nghi Luong (conceptual design, Flash artwork/scripting)
+Mr Tang Wei (programmer)
+Mr Paul Distant (programmer, tester)
+Dr Gordon Joyes (pedagogic design)
+Dr Kevin Caley (pedagogic design)
+
+=======================================================================
+
+

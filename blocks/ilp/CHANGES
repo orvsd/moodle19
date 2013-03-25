@@ -1,0 +1,755 @@
+2011-03-31 Thursday 22:31  ulcc
+
+	* access_context.php: 
+	
+	CONTRIB-1985 - committing some minor fixes that seem not to have
+	been updated
+
+2011-03-31 Thursday 22:02  ulcc
+
+	* view.php: 
+	
+	CONTRIB-1985 - committing some minor fixes that seem not to have
+	been updated
+
+2011-03-31 Thursday 21:01  ulcc
+
+	* list.php: 
+	
+	CONTRIB-1985 - committing some minor fixes that seem not to have
+	been updated
+
+2011-01-19 Wednesday 21:17  ulcc
+
+	* block_ilp_lib.php, personal_tutor_bulk.php, db/install.xml,
+	db/upgrade.php: 
+	
+	CONTRIB-1985 - some updates not committed correctly
+
+2010-11-30 Tuesday 07:00  ulcc
+
+	* list.php, list.php: 
+	
+	CONTRIB-2500 - a few minor fixes for sort order of lists
+
+2010-11-29 Monday 21:05  ulcc
+
+	* list.php, view.php, lang/en_utf8/block_ilp.php,
+	block_ilp_lib.php, list.php, view.php, lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-2500 - a few minor fixes for additional reports and
+	improved logs
+
+2010-11-07 Sunday 20:12  ulcc
+
+	* templates/custom/pix/print.gif: 
+	
+	file print.gif was added on branch MOODLE_19_STABLE on 2010-11-07
+	12:12:59 +0000
+
+2010-11-07 Sunday 20:12  ulcc
+
+	* styles.php: 
+	
+	file styles.php was added on branch MOODLE_19_STABLE on 2010-11-07
+	12:12:59 +0000
+
+2010-11-07 Sunday 20:12  ulcc
+
+	* templates/print/readme.txt: 
+	
+	file readme.txt was added on branch MOODLE_19_STABLE on 2010-11-07
+	12:12:59 +0000
+
+2010-11-07 Sunday 20:12  ulcc
+
+	* pix/addbox_a.gif, pix/addbox_span.gif, block_ilp.php,
+	block_ilp_lib.php, list.php, personal_tutor_bulk.php, reports.php,
+	styles.php, templates/custom/README.txt,
+	templates/print/readme.txt, theme/ilp/addbox_a.gif,
+	theme/ilp/addbox_span.gif, lang/en_utf8/block_ilp.php,
+	templates/custom/pix/print.gif, theme/ilp.css, block_ilp.php,
+	reports.php, templates/custom/readme.txt, block_ilp_lib.php,
+	list.php, styles.php, lang/en_utf8/block_ilp.php,
+	pix/addbox_span.gif, templates/custom/pix/print.gif,
+	templates/print/readme.txt, pix/addbox_a.gif: 
+	
+	CONTRIB-2500 - upgrade to modules including many new features and
+	improvements
+
+2010-11-07 Sunday 20:12  ulcc
+
+	* pix/addbox_a.gif: 
+	
+	file addbox_a.gif was added on branch MOODLE_19_STABLE on
+	2010-11-07 12:13:00 +0000
+
+2010-11-07 Sunday 20:12  ulcc
+
+	* pix/addbox_span.gif: 
+	
+	file addbox_span.gif was added on branch MOODLE_19_STABLE on
+	2010-11-07 12:12:59 +0000
+
+2010-04-17 Saturday 22:42  ulcc
+
+	* block_ilp.php, block_ilp_lib.php, db/install.xml, db/upgrade.php,
+	theme/ilp.css, CHANGES, block_ilp_lib.php, personal_tutor_bulk.php,
+	block_ilp.php: 
+	
+	CONTRIB-1985 - Added category functionality so that targets can be
+	associated with globally set targets.
+
+2010-03-05 Friday 04:31  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php: 
+	
+	CONTRIB-1894 - Fixed privacy issue; wrong capability was being
+	checked to ensure this.
+
+2010-02-02 Tuesday 03:56  ulcc
+
+	* reports.php, reports.php: 
+	
+	CONTRIB-1156 - allow download of all data
+
+2010-02-01 Monday 03:59  arborrow
+
+	* lang/de_utf8/block_ilp.php: 
+	
+	CONTRIB-1780 - fixing typo, missing semicolon
+
+2010-01-17 Sunday 21:02  ulcc
+
+	* block_ilp.php, list.php, block_ilp.php, list.php: 
+	
+	CONTRIB-1732 - block now checks whether you can are a teacher or
+	student from MyMoodle page based on ilp:viewclass capability and
+	returns appropriate display
+
+2009-12-03 Thursday 01:15  ulcc
+
+	* personal_tutor_bulk.php, personal_tutor_bulk.php: 
+	
+	CONTRIB-1161 - fixed error in bulk csv import of mentees
+
+2009-11-28 Saturday 21:51  ulcc
+
+	* theme/ilp/addbox_span.gif, theme/ilp/addbox_a.gif,
+	block_ilp_lib.php: 
+	
+	CONTRIB-1159 - fixed button display in IE
+
+2009-11-28 Saturday 21:36  ulcc
+
+	* lang/de_utf8/block_ilp.php: 
+	
+	file block_ilp.php was initially added on branch MOODLE_19_STABLE.
+
+2009-11-28 Saturday 21:36  ulcc
+
+	* lang/de_utf8/: block_ilp.php, block_ilp.php: 
+	
+	CONTRIB-1660 - Added German language pack, kindly provided by
+	Joachim Vogelgesang
+
+2009-11-02 Monday 06:10  ulcc
+
+	* theme/ilp.css: 
+	
+	file ilp.css was initially added on branch MOODLE_19_STABLE.
+
+2009-11-02 Monday 06:10  ulcc
+
+	* theme/ilp/addbox_a.gif: 
+	
+	file addbox_a.gif was initially added on branch MOODLE_19_STABLE.
+
+2009-11-02 Monday 06:10  ulcc
+
+	* .project, block_ilp_lib.php, lang/en_utf8/block_ilp.php,
+	theme/ilp/addbox_span.gif, theme/ilp.css, theme/ilp/addbox_a.gif,
+	.project, block_ilp_lib.php, theme/ilp.css, theme/ilp/addbox_a.gif,
+	theme/ilp/addbox_span.gif, lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-1159 - more consistent headings, add buttons improved and
+	theme files included in download
+
+2009-11-02 Monday 06:10  ulcc
+
+	* theme/ilp/addbox_span.gif: 
+	
+	file addbox_span.gif was initially added on branch
+	MOODLE_19_STABLE.
+
+2009-10-28 Wednesday 06:34  ulcc
+
+	* block_ilp_lib.php, personal_tutor_bulk.php,
+	lang/en_utf8/block_ilp.php, block_ilp_lib.php,
+	lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-1161 - fixed permissions and added instructions
+
+2009-10-25 Sunday 02:27  ulcc
+
+	* list.php, list.php: 
+	
+	CONTRIB-1571
+
+2009-10-25 Sunday 02:09  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php: 
+	
+	CONTRIB-1161 - adds bulk csv import of mentees and additional
+	report of content
+
+2009-10-25 Sunday 02:05  ulcc
+
+	* personal_tutor_bulk.php: 
+	
+	CONTRIB-1161 - adds bulk csv import of mentees and additional
+	report of content
+
+2009-10-25 Sunday 02:05  ulcc
+
+	* block_ilp_lib.php, list.php, block_ilp_lib.php, list.php,
+	personal_tutor_bulk.php: 
+	
+	CONTRIB-1569
+
+2009-10-25 Sunday 00:08  ulcc
+
+	* block_ilp.php, block_ilp_lib.php, personal_tutor_bulk.php,
+	reports.php, lang/en_utf8/block_ilp.php, personal_tutor_bulk.php,
+	lang/en_utf8/block_ilp.php, block_ilp.php, block_ilp_lib.php,
+	reports.php: 
+	
+	CONTRIB-1161 - adds bulk csv import of mentees and additional
+	report of content
+
+2009-10-25 Sunday 00:08  ulcc
+
+	* personal_tutor_bulk.php: 
+	
+	file personal_tutor_bulk.php was initially added on branch
+	MOODLE_19_STABLE.
+
+2009-10-11 Sunday 22:39  ulcc
+
+	* block_ilp_lib.php, list.php, view.php, list.php, view.php: 
+	
+	CONTRIB-1159 - tidy up breadcrumb and use build_navigation for
+	creating  trail
+
+2009-10-11 Sunday 20:34  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php: 
+	
+	CONTRIB-1159 - Changed date format to include year to avoid
+	confusion for longer term targets and reviews
+
+2009-10-11 Sunday 20:15  ulcc
+
+	* .project, block_ilp_lib.php, block_ilp_lib.php, .project: 
+	
+	CONTRIB-1565 - added capabilities to edit targets and reviews
+
+2009-10-11 Sunday 20:15  ulcc
+
+	* .project: 
+	
+	file .project was added on branch MOODLE_19_STABLE on 2009-10-11
+	12:15:55 +0000
+
+2009-10-11 Sunday 18:08  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php: 
+	
+	CONTRIB-1163 - allows targets to be published across networked
+	peers
+
+2009-10-11 Sunday 17:23  ulcc
+
+	* reports.php, reports.php: 
+	
+	CONTRIB-1499 - fixed additional reports displaying to reporting
+	pages
+
+2009-09-15 Tuesday 05:46  ulcc
+
+	* block_ilp.php, block_ilp.php: 
+	
+	CONTRIB-1156 - fixed user guide link
+
+2009-09-06 Sunday 22:49  ulcc
+
+	* pix/report4.gif: 
+	
+	file report4.gif was added on branch MOODLE_19_STABLE on 2009-09-06
+	14:49:37 +0000
+
+2009-09-06 Sunday 22:49  ulcc
+
+	* block_ilp.php, block_ilp_lib.php, pix/progression.gif,
+	pix/report4.gif, block_ilp.php, block_ilp_lib.php,
+	pix/progression.gif, pix/report4.gif: 
+	
+	CONTRIB-1156 - tidied up user guide and added check for icons in
+	custom template
+
+2009-08-27 Thursday 21:39  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php: 
+	
+	CONTRIB-1159 - Fixed icon link
+
+2009-08-27 Thursday 21:23  ulcc
+
+	* list.php, list.php: 
+	
+	CONTRIB-1159 - Added tablelib with sorting to Mentees page of ILP
+
+2009-08-27 Thursday 20:07  ulcc
+
+	* block_ilp.php, block_ilp_lib.php, config_global.html,
+	template.php, lang/en_utf8/block_ilp.php, block_ilp.php,
+	config_global.html, template.php, lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-1156 - allows user guide to be linked via config
+
+2009-08-11 Tuesday 03:38  ulcc
+
+	* db/: install.xml, install.xml: 
+	
+	Fixed install bug in XML
+
+2009-08-09 Sunday 21:08  ulcc
+
+	* db/: install.xml, install.xml, install.xml: 
+	
+	Fixed install bug
+
+2009-08-07 Friday 15:46  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php: 
+	
+	Shouldn't call config.php in lib file
+
+2009-08-03 Monday 01:28  ulcc
+
+	* block_ilp.php, db/install.xml, db/upgrade.php, block_ilp.php,
+	db/install.xml, db/upgrade.php: 
+	
+	CONTRIB-1160 - add new table for module templates
+
+2009-05-26 Tuesday 05:45  ulcc
+
+	* block_ilp_lib.php, block_ilp_lib.php, block_ilp_lib.php: 
+	
+	CONTRIB-1157 - removed all redirect code and superfluous pages from
+	ilpconcern to use formlib and moduel lib effectively and reduce
+	pages.
+
+2009-05-26 Tuesday 00:06  ulcc
+
+	* list.php: 
+	
+	CONTRIB-865 - group changes broke in 1.8
+
+2009-05-25 Monday 21:48  ulcc
+
+	* block_ilp_lib.php, access_context.php, block_ilp_lib.php,
+	access_context.php: 
+	
+	CONTRIB-1159 - remove table layouts in favour of YUI based grid
+	layouts
+
+2009-04-18 Saturday 00:03  ulcc
+
+	* reports.php, reports.php: 
+	
+	CONTRIB-1180 - add subject report totals to downloads
+
+2009-04-17 Friday 06:04  ulcc
+
+	* block_ilp_lib.php, template.php, db/access.php: 
+	
+	CONTRIB-1157 - merge changes from HEAD
+
+2009-04-17 Friday 05:49  ulcc
+
+	* templates/custom/readme.txt: 
+	
+	file readme.txt was initially added on branch MOODLE_19_STABLE.
+
+2009-04-17 Friday 05:49  ulcc
+
+	* pix/report1.gif, pix/report2.gif, pix/report3.gif,
+	pix/self-assessment.gif, pix/student_info.gif,
+	pix/subject_report.gif, pix/target.gif, pix/personal_report.gif,
+	pix/progression.gif, templates/custom/readme.txt: 
+	
+	CONTRIB-1157 - merge changes from HEAD
+
+2009-04-17 Friday 05:44  ulcc
+
+	* template.php, block_ilp_lib.php, config_global.html, view.php,
+	block_ilp_lib.php: 
+	
+	CONTRIB-1157 - merge changes from HEAD
+
+2009-04-17 Friday 02:49  ulcc
+
+	* config_global.html: 
+	
+	CONTRIB-1159
+
+2009-04-16 Thursday 23:11  ulcc
+
+	* view.php, templates/custom/README.txt: 
+	
+	CONTRIB-1157
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/report1.gif: 
+	
+	file report1.gif was added on branch MOODLE_19_STABLE on 2009-04-16
+	21:49:53 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/report3.gif: 
+	
+	file report3.gif was added on branch MOODLE_19_STABLE on 2009-04-16
+	21:49:53 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/progression.gif: 
+	
+	file progression.gif was added on branch MOODLE_19_STABLE on
+	2009-04-16 21:49:54 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/student_info.gif: 
+	
+	file student_info.gif was added on branch MOODLE_19_STABLE on
+	2009-04-16 21:49:53 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/subject_report.gif: 
+	
+	file subject_report.gif was added on branch MOODLE_19_STABLE on
+	2009-04-16 21:49:53 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/personal_report.gif: 
+	
+	file personal_report.gif was added on branch MOODLE_19_STABLE on
+	2009-04-16 21:49:54 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/target.gif: 
+	
+	file target.gif was added on branch MOODLE_19_STABLE on 2009-04-16
+	21:49:53 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/self-assessment.gif: 
+	
+	file self-assessment.gif was added on branch MOODLE_19_STABLE on
+	2009-04-16 21:49:53 +0000
+
+2009-03-14 Saturday 02:43  ulcc
+
+	* pix/report2.gif: 
+	
+	file report2.gif was added on branch MOODLE_19_STABLE on 2009-04-16
+	21:49:53 +0000
+
+2009-03-14 Saturday 02:42  ulcc
+
+	* templates/custom/README.txt, access_context.php, block_ilp.php,
+	block_ilp_lib.php, config_global.html, list.php, output.php,
+	reports.php, template.php, view.php, db/access.php, db/install.xml,
+	db/upgrade.php, lang/en_utf8/block_ilp.php,
+	lang/es_utf8/block_ilp.php, pix/personal_report.gif,
+	pix/progression.gif, pix/report1.gif, pix/report2.gif,
+	pix/report3.gif, pix/self-assessment.gif, pix/student_info.gif,
+	pix/subject_report.gif, pix/target.gif,
+	templates/custom/README.txt: 
+	
+	no message
+
+2009-03-14 Saturday 02:33  ulcc
+
+	* block_ilp_lib.php, template.php, view.php,
+	pix/personal_report.gif, pix/progression.gif, pix/report1.gif,
+	pix/report2.gif, pix/report3.gif, pix/self-assessment.gif,
+	pix/student_info.gif, pix/subject_report.gif, pix/target.gif: 
+	
+	no message
+
+2009-03-14 Saturday 02:13  ulcc
+
+	* block_ilp_lib.php, template.php, db/access.php: 
+	
+	no message
+
+2009-03-09 Monday 04:30  arborrow
+
+	* CHANGES: 
+	
+	file CHANGES was initially added on branch MOODLE_19_STABLE.
+
+2009-03-09 Monday 04:30  arborrow
+
+	* access_context.php, block_ilp.php, output.php, view.php, CHANGES,
+	block_ilp_lib.php, config_global.html, list.php, reports.php,
+	template.php, lang/en_utf8/block_ilp.php, db/access.php,
+	db/install.xml, db/upgrade.php, lang/es_utf8/block_ilp.php: 
+	
+	CONTRIB-1088 - creating ilp_package MOODLE_19_STABLE branch
+
+2009-01-06 Tuesday 21:37  arborrow
+
+	* list.php: 
+	
+	file list.php was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:52 +0000
+
+2009-01-06 Tuesday 21:37  arborrow
+
+	* template.php: 
+	
+	file template.php was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:52 +0000
+
+2009-01-06 Tuesday 21:37  arborrow
+
+	* block_ilp.php: 
+	
+	file block_ilp.php was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:51 +0000
+
+2009-01-06 Tuesday 21:37  arborrow
+
+	* lang/en_utf8/block_ilp.php: 
+	
+	file block_ilp.php was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:56 +0000
+
+2009-01-06 Tuesday 21:37  arborrow
+
+	* reports.php: 
+	
+	file reports.php was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:52 +0000
+
+2009-01-06 Tuesday 21:37  ulcc
+
+	* block_ilp.php, list.php, reports.php, template.php,
+	lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-865
+
+2008-11-03 Monday 23:02  ulcc
+
+	* list.php: 
+	
+	no message
+
+2008-11-03 Monday 21:25  ulcc
+
+	* template.php: 
+	
+	no message
+
+2008-10-16 Thursday 20:50  arborrow
+
+	* output.php: 
+	
+	file output.php was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:51 +0000
+
+2008-10-16 Thursday 20:50  ulcc
+
+	* output.php: 
+	
+	CONTRIB-771
+
+2008-10-16 Thursday 20:44  ulcc
+
+	* template.php: 
+	
+	CONTRIB-771
+
+2008-10-16 Thursday 20:39  ulcc
+
+	* template.php: 
+	
+	CONTRIB-771
+
+2008-10-13 Monday 20:45  ulcc
+
+	* block_ilp.php: 
+	
+	no message
+
+2008-10-13 Monday 20:42  arborrow
+
+	* view.php: 
+	
+	file view.php was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:51 +0000
+
+2008-10-13 Monday 20:42  arborrow
+
+	* access_context.php: 
+	
+	file access_context.php was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:51 +0000
+
+2008-10-13 Monday 20:42  ulcc
+
+	* access_context.php, list.php, template.php, view.php: 
+	
+	CONTRIB-771
+
+2008-08-19 Tuesday 19:23  arborrow
+
+	* lang/es_utf8/block_ilp.php: 
+	
+	file block_ilp.php was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:57 +0000
+
+2008-08-19 Tuesday 19:22  ulcc
+
+	* template.php, lang/es_utf8/block_ilp.php: 
+	
+	CONTRIB-666
+
+2008-08-19 Tuesday 17:29  ulcc
+
+	* template.php, lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-666
+
+2008-08-12 Tuesday 00:27  arborrow
+
+	* block_ilp_lib.php: 
+	
+	file block_ilp_lib.php was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:52 +0000
+
+2008-08-12 Tuesday 00:27  ulcc
+
+	* block_ilp_lib.php: 
+	
+	no message
+
+2008-08-11 Monday 20:17  ulcc
+
+	* template.php: 
+	
+	no message
+
+2008-07-23 Wednesday 23:08  ulcc
+
+	* block_ilp.php: 
+	
+	no message
+
+2008-06-04 Wednesday 01:14  ulcc
+
+	* template.php: 
+	
+	no message
+
+2008-06-02 Monday 17:43  ulcc
+
+	* template.php: 
+	
+	no message
+
+2008-05-29 Thursday 19:00  arborrow
+
+	* db/upgrade.php: 
+	
+	file upgrade.php was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:56 +0000
+
+2008-05-29 Thursday 19:00  arborrow
+
+	* db/install.xml: 
+	
+	file install.xml was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:57 +0000
+
+2008-05-29 Thursday 19:00  ulcc
+
+	* block_ilp.php, block_ilp_lib.php, template.php, db/install.xml,
+	db/upgrade.php: 
+	
+	CONTRIB-377
+
+2008-05-28 Wednesday 17:37  arborrow
+
+	* config_global.html: 
+	
+	file config_global.html was added on branch MOODLE_19_STABLE on
+	2009-03-08 19:30:52 +0000
+
+2008-05-28 Wednesday 17:37  ulcc
+
+	* block_ilp.php, block_ilp_lib.php, config_global.html,
+	template.php: 
+	
+	CONTRIB-376
+
+2008-05-22 Thursday 20:27  ulcc
+
+	* db/install.xml: 
+	
+	CONTRIB-376
+
+2008-05-22 Thursday 20:00  ulcc
+
+	* block_ilp_lib.php, list.php, template.php: 
+	
+	CONTRIB-451
+
+2008-05-21 Wednesday 19:40  ulcc
+
+	* list.php: 
+	
+	CONTRIB-447
+
+2008-05-09 Friday 00:16  ulcc
+
+	* db/install.xml: 
+	
+	CONTRIB-377
+
+2008-04-08 Tuesday 07:20  arborrow
+
+	* db/access.php: 
+	
+	file access.php was added on branch MOODLE_19_STABLE on 2009-03-08
+	19:30:57 +0000
+
+2008-04-08 Tuesday 07:20  arborrow
+
+	* access_context.php, block_ilp.php, block_ilp_lib.php,
+	config_global.html, list.php, output.php, view.php, template.php,
+	db/access.php, db/install.xml, lang/en_utf8/block_ilp.php: 
+	
+	CONTRIB-262 - adding ILP blocks and modules submitted by James
+	Ballard
+

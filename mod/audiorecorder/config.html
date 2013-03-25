@@ -1,0 +1,61 @@
+<form method="post" action="module.php" name="form">
+<input type="hidden" name="sesskey" value="<?php echo sesskey(); ?>" />
+
+<table cellpadding=9 cellspacing=0 >
+<tr valign=top>
+    <td align=right><?php print_string("configmaxbyte", "audiorecorder") ?>:</td>
+    <td><?php
+    $choices = get_max_upload_sizes($CFG->maxbytes);
+    choose_from_menu ($choices, "audiofile_maxbytes", $CFG->audiofile_maxbytes, "");
+    ?>
+    </td>
+    <td>
+    <?php print_string("configmaxbytes", "audiorecorder") ?>
+    </td>
+</tr>
+
+<tr valign="top">
+    <td align=right><?php print_string("configmaxtime", "audiorecorder") ?>:</td>
+    <td><?php
+    $choices = audiorecorder_max_time();
+    choose_from_menu ($choices, "audiofile_maxtimes", $CFG->audiofile_maxtimes, "");
+    ?>
+    </td>
+    <td>
+    <?php print_string("configmaxtimes", "audiorecorder") ?>
+    </td>
+</tr>
+
+<TR valign="top">
+        <TD align="right"><?php print_string("configenablemp3", "audiorecorder") ?>:</TD>
+        <TD><?PHP 
+            unset($choices);
+            $choices["0"] = get_string("no");
+            $choices["1"] = get_string("yes");
+            choose_from_menu ($choices, "audiofile_enablemp3", $CFG->audiofile_enablemp3, "");
+        ?></TD>
+        <TD><?PHP print_string("configenablemp3help", "audiorecorder") ?></TD>
+</TR>
+
+<tr valign="top">
+    <td align=right><?php print_string("configlocalpath", "audiorecorder") ?>:</td>
+    <td><?php
+     if ($CFG->audiofile_localpath && $CFG->audiofile_localpath!="") {
+         echo '<input type="text" name="audiofile_localpath" value="'.$CFG->audiofile_localpath.'"';
+     }else{
+         echo '<input type="text" name="audiofile_localpath" value="c:/audiorecorder"';        
+     }
+    ?>
+    </td>
+    <td>
+    <?php print_string("configlocalpaths", "audiorecorder") ?>
+    </td>
+</tr>
+
+<tr>
+    <td colspan=3 align=center>
+    <input type="submit" value="<?php print_string("savechanges") ?>"></td>
+</tr>
+</table>
+
+</form>
