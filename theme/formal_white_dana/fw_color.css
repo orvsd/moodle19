@@ -1,0 +1,375 @@
+/* Core */
+
+body {
+  background-color: #EEEEEE;
+}
+
+a:link {
+    color: #800000;
+}
+
+a:visited {
+    color:#800000;
+}
+
+a:hover {
+    color: #B22222;
+}
+
+a.dimmed:link,
+a.dimmed:visited {
+  color:#808080;
+}
+
+h1 {
+  background-color: #D3D3D3;
+  border-color: #333333;
+  color: #333333;
+}
+
+h2 {
+  background-color: #D3D3D3;
+  border-color:#808080;
+}
+h3 {
+  border-color:#808080;
+}
+h4 {
+  border-color:#808080;
+}
+
+
+th {
+    background-color:#D3D3D3;
+
+}
+
+th.header,
+td.header,
+div.header {
+  background-color: #D3D3D3;
+
+}
+
+#layout-table #left-column {
+    /* background-color: yellow; */
+}
+
+.generalbox {
+  border-color:#D3D3D3;
+  background-color:#FFFFFF;
+}
+
+.generaltable,
+.generaltable td {
+  border-color:#D3D3D3;
+  /* background-color:#FFFFFF; */
+}
+
+.generaltable .r0 td.cell.c0 {
+ background-color:#D3D3D3; 
+}
+
+.generaltable .r1 td.cell.c0 {
+border-color:#D3D3D3; 
+background-color:#E3DFD4; 
+}
+
+
+.navbar {
+  background-color:#A9A9A9;
+  border-color:#000000;
+  /* height: 20px; */
+  background: url(pix/grad/bg_bread.jpg) repeat-x;
+}
+
+.sitetopiccontent {
+  border-color:#D3D3D3;
+  background-color:#FFFFFF;
+}
+
+.highlight {
+  background-color:#D3D3D3;
+}
+
+.highlight2 {
+  color:#D3D3D3; /* highlight missing terms in forum search */
+}
+
+
+
+/***
+ *** Header
+ ***/
+
+#header-home, #header {
+  background-color: #D3D3D3;
+  border-color:#D3D3D3;
+}
+
+/***
+ *** Login
+ ***/
+
+
+.loginbox,
+.loginbox.twocolumns .loginpanel,
+.loginbox .subcontent {
+  border-color:#D3D3D3;
+}
+
+.loginbox .content {
+  border-color:#D3D3D3;
+}
+
+
+/***
+ *** Blocks
+ ***/
+ 
+.sideblock .header {
+  border-color: #000000;
+}
+
+.sideblock {
+  border-color:#000000;
+}
+
+.sideblock .content {
+  border-color:#A9A9A9;
+  background-color:#FCFCFC;
+}
+
+.sideblock hr {
+  color:#D3D3D3;
+  /*background-color:#FEF9F6;*/
+}
+
+.sideblock .footer {
+  border-top-color:#000000;
+}
+
+.sideblock .header .hide-show img.hide-show-image {
+  background: url('../../pix/t/switch_minus.gif') no-repeat bottom;
+}
+
+.sideblock.hidden .header .hide-show img.hide-show-image {
+  background: url('../../pix/t/switch_plus.gif') no-repeat bottom;
+}
+
+.sideblock .content .post .head .date,
+.sideblock .content .post .head .name {
+  color: #000000;
+  }
+
+/***
+ *** Calendar
+***/
+ 
+#calendar .maincalendar,
+#calendar .sidecalendar,
+#calendar .maincalendar .event {
+  border-color: #D3D3D3;
+}
+
+#calendar .maincalendar table.calendarmonth th {
+  border-color: #D3D3D3;
+}
+
+
+table.calendarmonth tr td {
+   border-color:#D3D3D3;
+} 
+
+table.minicalendar {
+  border-color:#D3D3D3;
+}
+
+table.minicalendar tr.weekdays th {
+  background-color:#FEF9F6;
+  border-color:#D3D3D3;
+  }
+
+table.minicalendar tr td.day {
+   border-color:#D3D3D3;
+  }
+  
+table.minicalendar tr td.weekend {
+  border-color:#D3D3D3;
+  color: red;
+  }
+  
+#calendar .today,
+.minicalendar .today {
+  border-color:#000000 !important;
+}
+  
+/* colors for calendar events */
+#calendar .event_global,
+.minicalendar .event_global,
+.block_calendar_month .event_global {
+  border-color:#696969 !important;
+  background-color:#696969;
+}
+
+#calendar .event_course,
+.minicalendar .event_course,
+.block_calendar_month .event_course {
+  border-color:#CD5C5C!important;
+  background-color:#CD5C5C;
+}
+
+#calendar .event_group,
+.minicalendar .event_group,
+.block_calendar_month .event_group {
+  border-color:#FFE4E1 !important;
+  background-color:#FFE4E1;
+}
+
+#calendar .event_user,
+.minicalendar .event_user,
+.block_calendar_month .event_user {
+  border-color:#D3D3D3!important;
+  background-color:#D3D3D3;
+}
+
+.cal_popup_fg {
+  background-color:#FEF9F6;
+}
+
+.cal_popup_bg {
+  border-color:#D3D3D3;
+  background-color:#FEF9F6;
+}
+
+
+/***
+ *** Course
+ ***/
+
+.headingblock {
+  border-color:#D3D3D3;
+}
+
+.categoryboxcontent,
+.courseboxcontent {
+  border-color:#D3D3D3;
+  background: #FFFFFF;
+}
+
+.categorybox .category,
+.categorybox .category {
+  border-color: #D3D3D3;
+}
+
+#course-view .section.main .content {
+  border-color: #D3D3D3;
+  background-color: #FFFFFF;
+}
+
+#course-view .section.main .side {
+  border-color: #D3D3D3;
+  background-color: #FFFFFF;
+}
+
+#course-view .current .right.side,
+#course-view .current .left.side {
+  background-color: #D3D3D3;
+}
+
+#course-view .section.hidden .content,
+#course-view .section.hidden .side {
+  border-color:#D3D3D3;
+ }
+
+
+
+
+/***
+ *** Tabs
+ ***/
+
+.tabs .side {
+  border-color: #D3D3D3;
+}
+.tabrow td {
+  background:url(pix/tab/left.gif) top left no-repeat;
+}
+.tabrow td .tablink {
+  background:url(pix/tab/right.gif) top right no-repeat;
+}
+.tabrow td:hover {
+  background-image:url(pix/tab/left_hover.gif);
+}
+.tabrow td:hover .tablink {
+  background-image:url(pix/tab/right_hover.gif);
+}
+.tabrow .last span {
+  background:url(pix/tab/right_end.gif) top right no-repeat;
+}
+.tabrow .selected {
+  background:url(pix/tab/left_active.gif) top left no-repeat;
+}
+.tabrow .selected .tablink {
+  background:url(pix/tab/right_active.gif) top right no-repeat;
+}
+.tabrow td.selected:hover {
+  background-image:url(pix/tab/left_active_hover.gif);
+}
+.tabrow td.selected:hover .tablink {
+  background-image:url(pix/tab/right_active_hover.gif);
+}
+
+/***
+ *** Modules: Forum
+ ***/
+
+.forumheaderlist,
+.forumpost {
+  border-color:#D3D3D3;
+}
+
+.forumpost .content {
+  background: #DCDCDC;
+}
+
+.forumpost .left {
+  background:#DCDCDC; 
+}
+
+.forumpost .topic {
+  border-bottom-color: #D3D3D3;
+}
+
+.forumpost .starter {
+  background:#DCDCDC; 
+}
+
+.forumheaderlist .discussion .starter {
+  background:#DCDCDC; 
+}
+
+.forumheaderlist td {
+  border-color: #D3D3D3;
+}
+
+.sideblock .post .head {
+  color:#DCDCDC;
+}
+
+.forumthread .unread {
+  background: #DCDCDC;
+}
+#mod-forum-discuss .forumpost {
+  background: none;
+}
+
+#mod-forum-discuss .forumpost.unread .content {
+  border-color: #D3D3D3; 
+} 
+
+#mod-forum-discuss .forumthread .unread {
+} 
+
+#mod-forum-index .unread {
+}
