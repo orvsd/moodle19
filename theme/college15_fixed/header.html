@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html<?php echo $direction ?>>
+<head>
+    <?php echo $meta ?>
+    <meta name="keywords" content="moodle, <?php echo $title ?> " />
+    <title><?php echo $title ?></title>
+    <link rel="shortcut icon" href="<?php echo "$CFG->wwwroot/theme/$CFG->theme" ?>/favicon.ico" />
+    <?php include("$CFG->javascript"); ?>
+</head>
+
+<body<?php
+    echo " $bodytags";
+    if ($focus) {
+        echo " onload=\"setfocus()\"";
+    }
+    ?>>
+    
+<div id="page">
+
+<?php if ($home) {  // This is what gets printed on the home page only  
+?>
+    <div id="header-home">
+        <div class="headermain">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" background="<?php echo "$CFG->wwwroot/theme/$CFG->theme" ?>/campus_blue_02.gif">
+  <tr>
+    <td width="4%" scope="row"><img src='<?php echo "$CFG->wwwroot/theme/$CFG->theme" ?>/campus_blue_01.gif' /></td>
+    <td width="94%" align="center" class="headermenu"><br />
+      <br />
+      <br />
+      <?php echo $menu ?></td>
+    <td width="2%" align="center">&nbsp;</td>
+  </tr>
+</table>
+
+</div></div>
+<?php } else if ($heading) {  // This is what gets printed on any other page with a heading 
+?>
+    <div id="header">
+        <div class="headermain">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" background="<?php echo "$CFG->wwwroot/theme/$CFG->theme" ?>/campus_blue_02.gif">
+  <tr>
+    <td width="4%" scope="row"><img src='<?php echo "$CFG->wwwroot/theme/$CFG->theme" ?>/campus_blue_01.gif' /></td>
+    <td width="94%" align="center" class="headermenu"><br />
+      <br />
+      <br />
+      <?php echo $menu ?></td>
+    <td width="2%" align="center">&nbsp;</td>
+  </tr>
+</table>
+        </div>
+        <div class="headermenu"></div>
+    </div>
+    <?php } ?>    
+    <div class="clearer">&nbsp;</div>
+<?php if ($navigation) { // This is the navigation table with breadcrumbs  ?>
+    <table class="navbar"><tr><td>
+        <div class="breadcrumb"><?php print_navigation($navigation); ?></div>
+        <div class="navbutton"><?php echo $button; ?></div>
+    </td></tr></table>
+<?php } else if ($heading) { // If no navigation, but a heading, then print a line  
+?>
+        <table width="100%"  height="15" border="0" cellpadding="0" cellspacing="0" background="<?php echo "$CFG->wwwroot/theme/$CFG->theme" ?>/navbar_bg.gif">
+  <tr>
+    <td scope="row"><img src="spacer.gif" width="5" height="15" /></td>
+  </tr>
+</table>
+
+<?php } ?>
+    <div class="clearer">&nbsp;</div>
+    <!-- END OF HEADER -->
+    <div id="content">
